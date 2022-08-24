@@ -1,4 +1,4 @@
-import { defineConfig } from 'vite'
+import { defineConfig, preview } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import { visualizer } from 'rollup-plugin-visualizer'
 import path from 'path'
@@ -39,12 +39,15 @@ export default defineConfig(({ mode }) => {
       ]
     },
     server: {
-      port: 3000
+      port: process.env.PORT
     },
     build: {
       rollupOptions: {
         plugins: [visualizer()]
       }
+    },
+    preview: {
+      port: process.env.PORT
     }
   }
 })

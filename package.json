@@ -1,15 +1,15 @@
 {
-  "name": "admin-panel",
-  "version": "0.0.1",
+  "name": "Aymerick Photo",
+  "version": "0.1.0",
   "author": {
-    "name": "Nur Muhammad",
-    "website": "ngekoding.github.io"
+    "name": "Nur Muhammad & Aymerick Michelet",
+    "website": "https://aymerickmichelet.fr"
   },
   "scripts": {
-    "prepare": "husky install",
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview --host",
+    "start": "unset NODE_ENV && echo 'PORT=5050' > .env && npm install && npm run dev"
   },
   "dependencies": {
     "@highlightjs/vue-plugin": "^2.0.1",

@@ -9,8 +9,8 @@ import Navbar from './Navbar.vue';
 import Footer from './Footer.vue';
 export default {
     components: {
-    Navbar,
-    Footer
-}
+        Navbar,
+        Footer
+    }
 }
 </script>
