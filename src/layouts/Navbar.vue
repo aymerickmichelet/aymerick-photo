@@ -49,7 +49,7 @@
               <ul class="site-menu js-clone-nav ml-auto list-unstyled d-flex text-right mb-0" data-class="social">
                   <li><a href="https://aymerickmichelet.fr" class="pl-3 pr-3"><span class="icon-globe"></span></a></li>
                   <li><a href="https://www.instagram.com/aymnms" class="pl-3 pr-3"><span class="icon-instagram"></span></a></li>
-                  <li><a href="https://www.youtube.com/aymnms" class="pl-3 pr-3"><span class="icon-youtube-play"></span></a></li>
+                  <li><a href="https://github.com/aymerickmichelet/aymerick-photo" class="pl-3 pr-3"><span class="icon-github"></span></a></li>
               </ul>
             </div>
 
