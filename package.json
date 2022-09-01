@@ -1,15 +1,14 @@
 {
-  "name": "Aymerick Photo",
+  "name": "aymerick-photo",
   "version": "0.1.0",
   "author": {
     "name": "Nur Muhammad & Aymerick Michelet",
     "website": "https://aymerickmichelet.fr"
   },
   "scripts": {
-    "dev": "vite --host",
+    "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview --host",
-    "start": "unset NODE_ENV && echo 'PORT=5050' > .env && npm install && npm run dev"
+    "serve": "vite preview"
   },
   "dependencies": {
     "@highlightjs/vue-plugin": "^2.0.1",
