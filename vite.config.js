@@ -38,16 +38,10 @@ export default defineConfig(({ mode }) => {
         }
       ]
     },
-    server: {
-      port: process.env.PORT
-    },
     build: {
       rollupOptions: {
         plugins: [visualizer()]
       }
-    },
-    preview: {
-      port: process.env.PORT
     }
   }
 })
