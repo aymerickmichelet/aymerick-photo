@@ -10,7 +10,7 @@ import Components from 'unplugin-vue-components/vite'
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
   return {
-    base: '/',
+    base: '/aymerick-photo/',
     plugins: [
       vue(),
       Components({
@@ -33,7 +33,7 @@ export default defineConfig(({ mode }) => {
           replacement: 'vue/dist/vue.esm-bundler.js'
         },
         { 
-          find: '@', 
+          find: '@',
           replacement: path.resolve(__dirname, './src')
         }
       ]

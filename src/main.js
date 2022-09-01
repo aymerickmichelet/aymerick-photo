@@ -2,7 +2,7 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import router from '@/router'
 
-import '@/styles/app.css'
+// import '@/styles/app.css'
 import '@/styles/bootstrap.min.css'
 import '@/styles/magnific-popup.css'
 import '@/styles/jquery-ui.css'

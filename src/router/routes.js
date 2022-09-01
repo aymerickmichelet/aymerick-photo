@@ -1,6 +1,6 @@
 const routes = [
   { 
-    path: '/',
+    path: '/aymerick-photo/',
     children: [
       {
         path: '',
